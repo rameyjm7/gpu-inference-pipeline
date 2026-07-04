@@ -8,7 +8,7 @@
 
 Production-style AI inference service for model execution, batching, streaming-shaped inputs, latency benchmarking, observability, and containerized deployment.
 
-The repo is intentionally small and reviewable: it demonstrates the software layer around a model rather than only a notebook or training script. It can run with a deterministic NumPy fallback for smoke tests, or load an ONNX model through ONNX Runtime when `MODEL_PATH` is provided.
+The repo is intentionally small and reviewable: it implements the service layer around a model rather than only a notebook or training script. It can run with a deterministic NumPy fallback for smoke tests, or load an ONNX model through ONNX Runtime when `MODEL_PATH` is provided.
 
 ## Why This Exists
 
