@@ -12,7 +12,7 @@ The repo is intentionally small and reviewable: it demonstrates the software lay
 
 ## Why This Exists
 
-NVIDIA-style AI platform roles care about the path from model artifact to reliable service:
+Production inference systems depend on the path from model artifact to reliable service:
 
 - request validation and preprocessing
 - runtime provider selection
